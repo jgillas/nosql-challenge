@@ -16,3 +16,10 @@ I then found the BusinessTypeID for "Restaurant/Cafe/Canteen" and then updated t
 
   <img width="725" alt="New Restaurant Updated" src="https://github.com/jgillas/nosql-challenge/assets/125215083/6c0e704c-4a3f-4ece-ba31-5862c3540088">
 
+The thing I did was that I found how many documents contianed the Dover Local Authority. I found that there were 994 documents that contained the Dover Local Authority. I then removed all these doucments which contained Dover Local Authority. I checked and made sure they were all removed and they were. The last thing I did with the setup code is that I needed to update some of the strings to be numbers because they were stored incorrectly. I converted latitude and longitude to decimal numbers and I converted RatingValue to an integer number. 
+
+This completes the setup code and I now moved to the analysis code where I answer four questions using the data I imported and cleaned up in the setup code. 
+
+The first question was Which establishments have a hygiene score equal to 20? The answer to the quesiton is below: 
+
+  <img width="662" alt="Question 1 Output" src="https://github.com/jgillas/nosql-challenge/assets/125215083/dced39a5-93fc-44e0-8646-aa26467fd0db">
